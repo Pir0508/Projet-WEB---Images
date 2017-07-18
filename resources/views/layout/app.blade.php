@@ -57,7 +57,7 @@
                       </ul>
                       <div class="btn-group" style="top:10px;">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="glyphicon glyphicon-flag"></span>&nbsp;{{__(ucfirst(App::getLocale()))}}
+                        <span class="glyphicon glyphicon-flag"></span>&nbsp; {{__(ucfirst(App::getLocale()))}}
                         </button>
                         <ul class="dropdown-menu flagListe">
                           @foreach (Config::get('languages') as $lang => $language)
