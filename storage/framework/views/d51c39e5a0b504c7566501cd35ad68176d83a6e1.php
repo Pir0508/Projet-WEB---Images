@@ -6,7 +6,7 @@
                     <table class="table table-bordered">
                         <tr>
                             <th>#</th>
-                            <th><?php echo e(__('message.Name')); ?></th>
+                            <th><?php echo e(__('message.name')); ?></th>
                             <th><?php echo e(__('message.email')); ?></th>
                             <th><?php echo e(__('message.actions')); ?></th>
                         </tr>

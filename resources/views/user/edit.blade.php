@@ -8,7 +8,7 @@
                     <table class="table table-bordered">
                         <tr>
                             <th>#</th>
-                            <th>{{ __('message.Name') }}</th>
+                            <th>{{ __('message.name') }}</th>
                             <th>{{ __('message.email') }}</th>
                             <th>{{ __('message.actions') }}</th>
                         </tr>

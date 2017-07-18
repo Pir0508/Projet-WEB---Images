@@ -55,9 +55,10 @@
                           <li><a href="<?php echo e(url('/register')); ?>"><span class="glyphicon glyphicon-save">&nbsp;</span><?php echo e(__('message.signin')); ?></a></li>
                         <?php endif; ?>
                       </ul>
-                      <div class="btn-group">
+                      <div class="btn-group" style="top:10px;">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <?php echo e(__('message.lang')); ?> <span class="caret"></span>
+                        <span class="glyphicon glyphicon-flag"></span>&nbsp;<?php echo e(__(ucfirst(App::getLocale()))); ?>
+
                         </button>
                         <ul class="dropdown-menu flagListe">
                           <?php $__currentLoopData = Config::get('languages'); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $lang => $language): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
